@@ -1,0 +1,535 @@
+/* ! ----------------- header css styles ----------------- */
+.Mheader {
+  grid-area: header;
+  height: 55px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  width: 100%;
+}
+
+.Mheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.user-role {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 30px;
+}
+
+.logout-button {
+  padding: 10px;
+  margin: 10px;
+  border: transparent;
+  background-color: #5a5a5a;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 900;
+}
+.logout-button:hover {
+  color: #333;
+  background-color: #ccc;
+}
+
+.searchinput {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.searchicon {
+  background-color: transparent;
+  border: transparent;
+}
+
+.searchlist {
+  background-color: #fff;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.counthead {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.countcard {
+  display: flex;
+  justify-content: space-evenly;
+}
+.dashmidheader {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.studentcountdir {
+  background-color: tomato;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.studentcount {
+  padding: 20px;
+  width: 200px;
+}
+.facultycountdir {
+  background-color: rgb(255, 191, 71);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.facultycount {
+  padding: 20px;
+  width: 200px;
+}
+
+/*! ---------------------------------------------------------- */
+.charts {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+.Barchart {
+  width: 400px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.Circlechart {
+  width: 300px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+/*! ---------------------------------------------------------- */
+
+.footer {
+  grid-area: footer;
+  height: 100px;
+  background-color: rgb(205, 205, 205);
+}
+
+.clock {
+  color: #000;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 900;
+  background-color: transparent;
+}
+.timecount {
+  font-size: 20px;
+}
+
+.posts {
+  margin: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid transparent;
+}
+.display-posts {
+  margin: 10px;
+}
+/*! student styles.css */
+/*? student styles.css */
+/*! student styles.css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* StudentDashboard.css */
+.student-dashboard {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr; /* Sidebar takes auto width, main content takes remaining space */
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "sidebar header header"
+    "sidebar main Rbar";
+
+  height: 100vh; /* Make the dashboard take the full viewport height */
+}
+
+.student-dashboard > * {
+  padding: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.college-logo {
+  width: 200px;
+  height: 200px;
+  height: auto;
+  margin-left: 30px;
+  padding: 10px;
+}
+.heading {
+  font: 900;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: #d0d0d0;
+  color: #fff;
+  width: 300px;
+  height: 100%;
+}
+.SocialMedia {
+  background-color: antiquewhite;
+  margin: 10px;
+  color: #333;
+}
+.social-media-page {
+  margin: 10px;
+}
+.sociallinks {
+  color: #000;
+  font-weight: bold;
+}
+/* student profike css */
+
+.student-profile {
+  background-color: antiquewhite;
+  margin: 10px;
+  color: #333;
+}
+
+/* main-contant css */
+
+.main-content {
+  grid-area: main;
+  background-color: #fff;
+}
+.navbar {
+  background-color: #f0f0f0;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul li {
+  list-style: none;
+  font-weight: 700;
+}
+.navbar ul li a {
+  color: #333;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.Showcase {
+  background-color: aquamarine;
+  margin: 20px;
+  border: 2px solid #000;
+}
+.uploadnotice {
+  margin: 20px;
+}
+.Rbar {
+  grid-area: Rbar;
+  background-color: #5d7b9b;
+}
+
+.calendar-container {
+  margin: 20px;
+}
+.editstudent {
+  background-color: #f0f0f0;
+  margin: 10px;
+  color: #000;
+}
+.editstudentdetail {
+  margin: 10px;
+  padding: 10px;
+}
+
+/*! styles for admin dashboard */
+/*? styles for admin dashboard */
+/*! styles for admin dashboard */
+
+.faculty-list {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.count-container {
+  background-color: aquamarine;
+  margin: 20px;
+}
+.count {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.counts {
+  background-color: #f0f0f0;
+  margin: 10px;
+  padding: 10px;
+  margin-right: 40px;
+}
+.countf {
+  background-color: #f0f0f0;
+  margin: 10px;
+  padding: 10px;
+}
+.countnumber {
+  font-weight: 900;
+  font-size: 30px;
+}
+.AssignGroups {
+  background-color: #f0f0f0;
+  margin: 10px;
+  color: #000;
+}
+.assign-groups {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.assign-courses {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+/* !login page  */
+/*! Login.css */
+
+/* Container styles */
+.logincontainer {
+  max-width: 400px;
+  padding: 40px;
+  margin: 15% auto;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.loginhead {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Input styles */
+.logininput[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.logininput2[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.inploginfeilds {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+}
+
+/* Button styles */
+.loginbtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Link styles */
+a {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Error message styles */
+.error {
+  color: #ff0000;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+/* ================*/
+
+/* SignUp.css */
+
+/* .Signupcontainer {
+  margin-top: 150px;
+  background-color: #e2e2e2;
+  margin: 150px;
+  padding: 40px;
+}
+
+.signuphead {
+  text-align: center;
+  background-color: #0070c0;
+}
+.back {
+  color: #000;
+  font-weight: 900;
+} */
+
+/* SignUp.css */
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5; /* Light gray background color */
+}
+
+.Signupcontainer {
+  background-color: #fff; /* White background for the form */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for a card-like effect */
+  text-align: center;
+  margin-top: 100px;
+  margin: 40px;
+}
+
+.signup-heading {
+  color: #333; /* Dark text color for the heading */
+}
+
+.signup-link {
+  display: block;
+  color: #0070c0; /* Blue link color */
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.back {
+  display: block;
+  color: #0070c0; /* Blue link color for the "Back" link */
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+/* student signup css */
+
+/* StudentSignUp.css */
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5; /* Light gray background color */
+}
+
+.signup-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Dark text color for the heading */
+}
+
+.signup-form {
+  background-color: #fff; /* White background for the form */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Box shadow for a card-like effect */
+  text-align: center;
+  max-width: 400px; /* Limit the width of the form */
+}
+
+.input {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.signupbutton {
+  width: 100%;
+  padding: 10px;
+  background-color: #0070c0; /* Blue button background color */
+  color: #fff; /* White button text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signupbutton:hover {
+  background-color: #005b9d; /* Darker blue on hover */
+}
+
+.signin-form {
+  width: 300px;
+}

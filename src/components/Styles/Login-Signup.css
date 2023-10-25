@@ -1,0 +1,223 @@
+/* Login-Signup.css */
+.chalkpad {
+  color: #fafafa;
+  font-weight: 900;
+}
+.mainheading {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #fff;
+  font: 900;
+  font-size: 20px;
+  background-color: #007bff;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.mylinks {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+}
+.Login-Container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.loginimage {
+  max-width: 100%;
+  height: auto;
+}
+
+.loginheading {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #333;
+}
+
+.inploginfeilds {
+  width: 100%;
+}
+
+.logininput {
+  width: 150px;
+  padding: 10px;
+  margin: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.loginbtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginbtn:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: #ff0000;
+  font-weight: 900;
+}
+
+.addons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.addons a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #007bff;
+}
+
+.addons a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive CSS for Mobile */
+@media (max-width: 768px) {
+  .Login-Container {
+    padding: 10px;
+  }
+}
+
+/* signup page css */
+
+.Signup-Container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.signupimage {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  background-color: #007bff;
+  padding: 10px;
+  color: #fff;
+  border-style: double;
+  border-radius: 10px;
+}
+p {
+  text-align: center;
+}
+
+.signin-form {
+  margin: 20px;
+}
+.signupbutton {
+  background-color: #007bff;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 900;
+}
+.backbtn {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color: #0056b3;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/* reset page css */
+
+.Reser-Container {
+  margin: 100px auto;
+  width: 400px;
+}
+.resetheading {
+  text-align: center;
+}
+.resetimage {
+  width: 400px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.resetform {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 200px;
+  flex-direction: column;
+}
+
+.resetinputs {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.resetline {
+  color: #333;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+.resetbtn {
+  background-color: #007bff;
+  padding: 10px;
+  border: transparent;
+  margin: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* Student-Register css */
+
+.Studentsignup-Register {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Facultysignup-Register {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Studentinput {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+.StudentBtn {
+  background-color: #007bff;
+  padding: 5px;
+  border: transparent;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px auto;
+  width: 100px;
+  color: #fff;
+  font-weight: 900;
+}

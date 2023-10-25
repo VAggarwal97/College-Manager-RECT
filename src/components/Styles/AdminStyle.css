@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Admin-dashboard {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr; /* Sidebar takes auto width, main content takes remaining space */
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "sidebar header header header"
+    "sidebar main main Rbar";
+
+  height: 100vh; /* Make the dashboard take the full viewport height */
+}
+
+.Admin-dashboard > * {
+  padding: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #f0f0f0;
+  grid-area: header;
+  height: 55px;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+.Admin-Sidebar {
+  background-color: #5a5a5a;
+  grid-area: sidebar;
+  width: 250px;
+  height: 100%;
+  color: #fff;
+}
+
+.main-content {
+  background-color: #f0f0f0;
+  grid-area: main;
+}
+
+.Rbar {
+  background-color: #fff;
+  grid-area: Rbar;
+  width: 300px;
+}
+
+.Showcase {
+  background-color: rgb(81, 81, 81);
+}
+
+/* admin sidebar */
+
+.AdminSidebar {
+  margin: 10px;
+  padding: 10px;
+}
+.Pagelogo {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.pagelogolink {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.admin-profile {
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Adminbtns {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#btn {
+  padding: 10px;
+  background-color: white;
+  border: transparent;
+  border-radius: 5px;
+  margin: 10px;
+}
+#btn:hover {
+  background-color: #5a5a5a;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.onlystudent {
+  font-size: 15px;
+  font-weight: 900;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.Rbar {
+  padding: 10px;
+  border-left: 1px solid #ccc;
+}
+
+.notice-board {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.noticelist {
+  list-style-type: none;
+  padding: 15px;
+}
+.noticelinks {
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+}
+.notelist {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+/* social media page */
+
+.social-media-page {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+}
+.socialheading {
+  font-size: 25px;
+  text-align: center;
+}
+.social-container {
+  background-color: whitesmoke;
+  margin: 10px;
+  padding: 10px;
+}
+.socalbtn {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+.socalbtn2 {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+.socalbtn:hover {
+  background-color: #5a5a5a;
+  color: #fff;
+}
+.addlink {
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+}
+.socailinput {
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+}
+.editstudentdetail {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.editstudheading {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+.editstudlable {
+  background-color: #ccc;
+  margin: 20px;
+  padding: 10px;
+}
+.editstudinput{
+  padding: 10px;
+}
+.editstudbtn {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.editstudform{
+  background-color: #ccc;
+  margin: 10px;
+  padding: 10px;
+}
